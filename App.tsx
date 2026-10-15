@@ -206,12 +206,12 @@ type Palette = typeof light;
 const makeStyles = (c: Palette) =>
   StyleSheet.create({
     root: { flex: 1, backgroundColor: c.bg },
-    scroll: { paddingHorizontal: 16, gap: 12 },
+    scroll: { paddingHorizontal: 16, gap: 10 },
     header: {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      paddingVertical: 8,
+      paddingVertical: 4,
     },
     title: { fontSize: 24, fontWeight: '700', color: c.text },
     resetBtn: {
@@ -226,7 +226,7 @@ const makeStyles = (c: Palette) =>
     card: {
       backgroundColor: c.card,
       borderRadius: 20,
-      padding: 16,
+      padding: 14,
       borderWidth: StyleSheet.hairlineWidth,
       borderColor: c.border,
     },
@@ -239,16 +239,16 @@ const makeStyles = (c: Palette) =>
     },
     hint: { fontSize: 15, color: c.text, marginTop: 2 },
     billValue: {
-      fontSize: 44,
+      fontSize: 36,
       fontWeight: '700',
       color: c.text,
-      marginTop: 4,
+      marginTop: 2,
     },
     row: { flexDirection: 'row', gap: 8, marginTop: 12 },
     chip: {
       flex: 1,
       alignItems: 'center',
-      paddingVertical: 12,
+      paddingVertical: 10,
       borderRadius: 14,
       backgroundColor: c.chip,
     },
@@ -271,7 +271,7 @@ const makeStyles = (c: Palette) =>
       fontSize: 16,
       fontWeight: '600',
       color: c.text,
-      paddingVertical: 10,
+      paddingVertical: 6,
     },
     percentSign: { fontSize: 16, color: c.muted, fontWeight: '600' },
     splitCard: {
@@ -299,7 +299,7 @@ const makeStyles = (c: Palette) =>
     resultCard: {
       backgroundColor: c.result,
       borderRadius: 24,
-      padding: 20,
+      padding: 16,
     },
     resultRow: {
       flexDirection: 'row',
@@ -314,12 +314,12 @@ const makeStyles = (c: Palette) =>
       backgroundColor: 'rgba(255,255,255,0.35)',
       marginVertical: 10,
     },
-    resultBig: { color: '#FFFFFF', fontSize: 40, fontWeight: '800', marginTop: 2 },
+    resultBig: { color: '#FFFFFF', fontSize: 34, fontWeight: '800' },
     keypad: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
     key: {
       width: '31.8%',
       flexGrow: 1,
-      height: 56,
+      height: 50,
       borderRadius: 16,
       alignItems: 'center',
       justifyContent: 'center',
