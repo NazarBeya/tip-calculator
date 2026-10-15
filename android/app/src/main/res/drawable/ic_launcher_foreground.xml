@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- coin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-27,0a27,27 0,1 1,54 0a27,27 0,1 1,-54 0" />
+    <!-- percent: upper-left dot -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M44,44m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <!-- percent: lower-right dot -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M64,64m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <!-- percent: slash -->
+    <path
+        android:strokeColor="#0F766E"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M65,42L43,66" />
+</vector>
